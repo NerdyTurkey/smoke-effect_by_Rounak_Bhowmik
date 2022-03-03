@@ -122,6 +122,7 @@ def main():
             display_fps = int(fps_sum / n)
             counter = 0
             fps_sum = 0
+        # displays n-pt average of fps
         pygame.display.set_caption(f"FPS = {display_fps}")
 
 
