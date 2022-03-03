@@ -97,6 +97,7 @@ class Smoke:
 
 def main():
     smoke = Smoke()
+
     # used to make a running average of fps
     fps_sum = 0
     counter = 0
